@@ -1,12 +1,12 @@
 # Site settings
-title: Jiaming Shen's Homepage
-email: mickeysjm@gmail.com
+title: Thang Nguyen
+email: thangdn.tlu@gmail.com
 # description: Keep it Simple
-description: So we beat on, boats against the current, borne back ceaselessly into the past.
+description: 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url:  # the base hostname & protocol for your site
-twitter_username: 
-github_username:  mickeystroller
+twitter_username: thangdnsf
+github_username:  thangdnsf
 
 # Build settings
 markdown: kramdown
@@ -17,10 +17,10 @@ gems:
 
 # Resume settings
 resume_avatar:                  "true"
-resume_name:                    "Jiaming Shen"
+resume_name:                    "Thang Nguyen"
 resume_title:                   "Computer Scientist"
 resume_contact_email:
-  "mickesyjm@gmail.com"
+  "thangdn.tlu@gmail.com"
 
 # use "yes" to display the email contact button,
 # "no" to display an "I'm not looking for work" message,
@@ -43,13 +43,13 @@ resume_section_associations:    true
 # Resume social links
 # uncomment the options you wish to display, and add your own URL
 resume_social_links:
-  resume_github_url:            "https://github.com/mickeystroller"
+  resume_github_url:            "https://github.com/thangdnsf"
   #resume_twitter_url:           "http://twitter.com/jglovier"
   # resume_dribbble_url:          "https://dribbble.com/jag"
-  resume_facebook_url:          "https://www.facebook.com/profile.php?id=100005359005077"
+  resume_facebook_url:          "https://www.facebook.com/thangdnsf"
   # resume_linkedin_url:          "https://www.linkedin.com/in/joelglovier"
   # resume_instagram_url:         "insert your Instagram URL here"
-  resume_website_url:           "mickeystroller.github.io"
+  resume_website_url:           "thangdnsf.github.io"
 
 # Design settings
 resume_theme:                   default
