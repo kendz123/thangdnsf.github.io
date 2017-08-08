@@ -5,7 +5,7 @@ email: thangdn.tlu@gmail.com
 description: 
 baseurl: "" # the subpath of your site, e.g. /blog/
 url:  # the base hostname & protocol for your site
-twitter_username: thangdnsf
+twitter_username: ThangdnTlu
 github_username:  thangdnsf
 
 # Build settings
