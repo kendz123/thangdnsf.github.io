@@ -1,3 +1,93 @@
----
-layout: research
----
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include header.html %}
+
+    <div class="wrapper">
+
+	  <link rel="stylesheet" href="{{ "/css/main_resume_cleaned.css" | prepend: site.baseurl }}">
+  
+      <!-- begin Experience -->
+      <section class="content-section" style="margin-top:30px;">
+
+        <header class="section-header">
+          <h2>Research</h2>
+        </header>
+
+		<!-- Research Summary -->
+        <div class="executive-summary" style="font-size:17px;">
+          <p>My research interest is primarily mining-social network, Data-mining, Machine learning. I am currently working on a closed-domain chatbot conversation and fake news detection. 
+          	 My previous researches were mainly about topic modeling, community detection. 
+          </p>
+        </div>
+
+ 		<!-- horizontal line -->
+        <div style="border-bottom: 1px solid #c7c7c7; margin-bottom: 1.5rem"></div>
+
+
+        <!-- Overlapping community structure detection in large-scale networks -->
+        <div class="resume-item">
+          <h3 class="resume-item-title">Overlapping community structure detection in large-scale networks [<a class="page-link", href="/resources/thesis/Slide.pdf">Slide</a>] [<a class="page-link", href="/resources/thesis/tluthesis.pdf">doc</a>]</h3>
+          <h4 class="resume-item-details">Supervised by PhD. Duc.V.T &bull; Jan, 2017 &mdash; Jul, 2017</h4>
+
+
+          <p class="resume-item-copy">
+          In this undergraduate thesis, I provide a general view of communities and its the real life applications. In recent years, with the rapid growth of network scale, it is a difficult task to detect overlapping communities in large-scale networks for state of the art methods. This method is implemented in the Apache Spark framework for its power in distributed parallel computation.
+          </p>
+	
+		  <p class="resume-item-copy"> The main contributions of this work include:</p>
+		  
+          <ul class="resume-item-list">
+          	<li>Introduce BigCLAM models proposed by Yang and Leskovec (2013).</li>
+            <li>proposed a few methods convex optimization.</li>
+            <li>implemented BigCLAM in Apache Spark is evaluated as lightning-fast cluster computing to able detect community in the large-scale networks.</li>
+          </ul>
+          
+          <p class="resume-item-copy"> This undergraduate thesis gained highest score (10/10).</p>
+          <div align="center"><img src="/images/img.jpg" style="max-width:90%"></div>
+          
+        </div><!-- end of resume-item -->
+
+		<!-- horizontal line -->
+        <div style="border-bottom: 1px solid #c7c7c7; margin-bottom: 1.5rem"></div>
+        
+        <!-- ). Generate large prime numbers for RSA encryption algorithm. -->
+        <div class="resume-item">
+          <h3 class="resume-item-title">Generate large prime numbers for RSA encryption algorithm. [<a class="page-link", href="http://113.190.233.206:8081/dspace/bitstream/DHTL_123456789/2284/1/Ng%20%C4%90%E1%BB%A9c%20Th%E1%BA%AFng.pdf">doc</a>]</h3>
+          <h4 class="resume-item-details">Supervised by PhD. Duc.V.T &bull; May, 2015 &mdash; Dec, 2015</h4>
+
+		 <p class="resume-item-copy">
+          This paper describes the classical method to generate random strong primes used in cryptography. Specifically,  presented in detail.
+          </p>
+	
+		  <p class="resume-item-copy"> The main contributions of this work include:</p>
+		  
+		  <ul class="resume-item-list">
+            <li>Introduce the Rabin-Miller and Gordon algorithm</li>
+            <li>Proposed a few optimization methods..</li>
+            <li>Generate random strong primes</li>
+          </ul>
+          
+          <div align="center"><img src="/images/strong-prime.png" style="max-width:100%"></div>
+
+        </div><!-- end of resume-item -->
+
+      </section>
+      <!-- end Experience -->
+
+
+    </div>
+	  {% include footer.html %}
+	
+		<!-- {% include disqus.html %} -->
+
+    {% include ga.html %}
+    
+
+  </body>
+
+</html>
